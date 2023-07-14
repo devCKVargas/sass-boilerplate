@@ -2,6 +2,8 @@
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
+@use "../abstracts/" as *;
+
 // reset
 *,
 *::before,
@@ -31,9 +33,9 @@ body {
 html {
 	height: -webkit-fill-available;
 	scroll-behavior: smooth;
-	font-weight: normal;
 	line-height: normal;
 	font-family: $ff-main;
+	font-weight: normal;
 	font-size: 62.5%; //$ 10px
 }
 
